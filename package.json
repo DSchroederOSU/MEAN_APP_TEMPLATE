@@ -1,0 +1,29 @@
+{
+  "name": "mean_stack_template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DSchroederOSU/MEAN_APP_TEMPLATE.git"
+  },
+  "dependencies": {
+    "express": "~4.13.2",
+    "mongoose": "~3.6.2",
+    "morgan": "~1.6.1",
+    "body-parser": "~1.14.1",
+    "method-override": "~2.3.5"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DSchroederOSU/MEAN_APP_TEMPLATE/issues"
+  },
+  "homepage": "https://github.com/DSchroederOSU/MEAN_APP_TEMPLATE#readme"
+}
