@@ -1,29 +1,15 @@
 {
-  "name": "mean_stack_template",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server/server.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DSchroederOSU/MEAN_APP_TEMPLATE.git"
-  },
+  "name": "node-todo",
+  "version": "0.0.0",
+  "description": "Simple todo application.",
+  "main": "server.js",
+  "author": "Bogotobogo",
   "dependencies": {
-    "express": "~4.13.2",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.0",
+    "method-override": "^2.3.10",
+    "mongodb": "~2.2.31",
     "mongoose": "~3.6.2",
-    "morgan": "~1.6.1",
-    "body-parser": "~1.14.1",
-    "method-override": "~2.3.5"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DSchroederOSU/MEAN_APP_TEMPLATE/issues"
-  },
-  "homepage": "https://github.com/DSchroederOSU/MEAN_APP_TEMPLATE#readme"
+    "morgan": "~1.6.1"
+  }
 }
