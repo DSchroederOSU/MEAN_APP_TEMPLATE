@@ -1,3 +1,2 @@
-// public/js/core.js
-
-angular.module('bogoTodo', ['todoController', 'todoService']);
+// public/core.js
+angular.module('scotchTodo', ['todoController', 'todoService']);

@@ -1,5 +1,4 @@
-// config/database.js
-
+// Information for the Database Connection
 module.exports = {
-    url : 'mongodb://localhost:27017/'
+    url : 'mongodb://localhost/MEAN_TEST'
 };
